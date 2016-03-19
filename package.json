@@ -1,0 +1,32 @@
+{
+  "name": "sg-scraper",
+  "version": "0.0.0",
+  "description": "Tool for scraping albums from suicidegirls.com",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "commander": "^2.9.0",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeandcats/sg-scraper.git"
+  },
+  "keywords": [
+    "suicidegirls",
+    "scrape",
+    "scraper",
+    "suicide",
+    "girls"
+  ],
+  "author": "Ben <codeandcats@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeandcats/sg-scraper/issues"
+  },
+  "homepage": "https://github.com/codeandcats/sg-scraper#readme"
+}
