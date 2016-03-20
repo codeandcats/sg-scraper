@@ -4,8 +4,11 @@
   "description": "Tool for scraping albums from suicidegirls.com",
   "main": "index.js",
   "dependencies": {
+    "chalk": "^1.1.1",
     "cheerio": "^0.20.0",
     "commander": "^2.9.0",
+    "jsonfile": "^2.2.3",
+    "linq": "^3.0.5",
     "request": "^2.69.0"
   },
   "devDependencies": {},

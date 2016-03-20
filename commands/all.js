@@ -1,0 +1,2 @@
+require('./scrape');
+require('./config');
