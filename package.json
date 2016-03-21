@@ -1,6 +1,6 @@
 {
   "name": "sg-scraper",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Tool for scraping albums from suicidegirls.com",
   "main": "index.js",
   "dependencies": {
