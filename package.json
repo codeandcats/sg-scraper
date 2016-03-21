@@ -15,6 +15,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "sg-scraper": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codeandcats/sg-scraper.git"
