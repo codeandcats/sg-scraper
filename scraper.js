@@ -117,7 +117,7 @@ exports.scrapeAlbum = url => {
 									for (var index = 0; index < photoUrls.length; index++) {
 										var url = photoUrls[index];
 										
-										var fileName = path.join(albumPath, path.basename(url));
+										var fileName = path.join(albumPath, leadingZeros(index, 3) + ' - ' + path.basename(url));
 										
 										var imagePromise = saveToFile(url, fileName);
 										
@@ -218,4 +218,9 @@ function saveToFile(url, fileName) {
 			reject(err);
 		}
 	});
+}
+
+function leadingZeros(num, width) {
+	num = num.toString();
+	return num.length >= width ? num : new Array(width - num.length + 1).join('0') + num;
 }
