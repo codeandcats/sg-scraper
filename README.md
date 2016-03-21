@@ -3,17 +3,26 @@
 
 <img src="https://raw.githubusercontent.com/codeandcats/sg-scraper/master/logo.png?token=AFwZ3vAe6MDPR2E5dHgF2X5-uW0OvkZbks5W9gCiwA%3D%3D" />
 
-## Install
+## 1. Install
 ```
 npm install sg-scraper -g
 ```
 
-## Setup
+## 2. Setup
 ```
 sg-scraper config -u <user-name> -p <password> -d <destination-path>
 ```
+E.g.
+```
+sg-scraper config -u ash.ketchum -p GottaCatchEm4ll -d d:\pics\sg\
+```
 
-## Running
+## 3. Run
 ```
-sg-scraper scrape <album-url>
+sg-scraper scrape [album-url]
 ```
+E.g.
+```
+sg-scraper scrape https://www.suicidegirls.com/girls/fishball/album/2303471/gotta-catchem-all/
+```
+Or don't specify an album url and it will use the url in the clipboard if there is one.  
