@@ -8,6 +8,7 @@
     "cheerio": "^0.20.0",
     "commander": "^2.9.0",
     "copy-paste": "^1.1.4",
+    "expand-home-dir": "0.0.3",
     "jsonfile": "^2.2.3",
     "linq": "^3.0.5",
     "request": "^2.69.0"

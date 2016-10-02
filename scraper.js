@@ -104,6 +104,9 @@ exports.scrapeAlbum = url => {
 							console.log('Album: ', albumName);
 							
 							var albumPath = path.join(settings.destinationPath, modelName, albumName);
+							albumPath = utils.file.expandPath(albumPath);
+
+							console.log('Saving to: ' + albumPath);
 							
 							utils.file.makeDirectory(albumPath)
 								.then(() => {

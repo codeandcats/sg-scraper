@@ -6,7 +6,7 @@ var utils = {
 	file: require('./utils/file')	
 };
 
-var appDataPath = process.env.APPDATA || (process.platform == 'darwin' ? process.env.HOME + 'Library/Preferences' : '/var/local');
+var appDataPath = process.env.APPDATA || (process.platform == 'darwin' ? path.join(process.env.HOME, 'Library/Preferences') : '/var/local');
 
 var fileName = path.join(appDataPath, pkg.name, 'config.json');
 
