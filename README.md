@@ -1,6 +1,9 @@
 # sg-scraper
 #### A node command line app for downloading albums from [suicidegirls.com](http://suicidegirls.com).
 
+## ⚠️ Attention
+Unfortunately some time since publishing this project [suicidegirls.com](http://suicidegirls.com) decided to implement protection against bots using Google's reCAPTCHA, effectively breaking this scraper. From my initial investigation there seems like potential ways around the issue but unfortunately none that I can dedicate time to implementing. That said, I will gladly accept a pull request from anyone up to the challenge!
+
 <img src="https://raw.githubusercontent.com/codeandcats/sg-scraper/master/logo.png" />
 
 ## 1. Install
